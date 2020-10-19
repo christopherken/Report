@@ -1,0 +1,131 @@
+body{
+   
+    font-family: Arial,sans-serif;
+    
+}
+h2,h3{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: gold;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    font-family: arial;
+    font-weight: bold;
+}
+li{
+    float: left;
+    border-right: 1px solid goldenrod;
+}
+li a{
+    padding:16px 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+li a:hover{
+    background-color: goldenrod;
+    color: black;
+    border: 2px solid white;
+    
+}
+#Home{
+ background-color: goldenrod;
+ height: 600px;
+ padding: 10px;
+ text-align: center;
+ color:white;
+ font-size: 50px;
+ font-family: Arial;
+ margin: 0;
+}
+button{
+    padding: 10px;
+    border-style: unset;
+    border-radius: 6px;
+    color:black;
+    background-color:white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+    border-style: unset;
+}
+input[type=search]{
+    width: 50%
+}
+  
+#About{
+ background-color: white;
+ height: 500px;
+}
+#Report{
+  background-color: darkgoldenrod;
+  height: 1000px;
+  font-weight: bold;
+}
+table{
+    width:100%;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+    background-color: gold;
+
+}
+th,td{
+    padding: 9px;
+    text-align: left;
+    border: 2px solid white;
+}
+mark{
+    background-color: white;
+}
+#Contact{
+    background-color:whitesmoke;
+    height: 1000px;
+    font-weight: bold;
+}
+input,select{
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+input:hover{
+    border: 2px solid gold;
+}
+select:hover{
+    border: 2px solid gold;
+}
+input[type=submit]{
+    border-radius: 4px;
+   background-color: gold;
+}
+input:hover[type=submit]{
+    border-radius: 4px;
+   background-color: goldenrod;
+}
+footer{
+    background-color: gold;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:black;
+}
